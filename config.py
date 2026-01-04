@@ -32,15 +32,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Jani-Music/Hema-Private-Repo",
+    "https://github.com/Bihariraj120/Bolt-Private-Repo",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "jani")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Vip_Jani_OP")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+Fgru4laNvJpkMGI1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Bolt_Sanatani")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+kbbCkXi4lY1mODk0")
 
 API_URL = getenv("API_URL", 'https://api2.nexgenbots.xyz') #youtube song url
 VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.nexgenbots.xyz')
